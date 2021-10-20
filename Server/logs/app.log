@@ -1,0 +1,201 @@
+23:12:13.159 INFO  - Server initiated.
+23:12:13.164 INFO  - Listening to port 1766
+23:12:13.164 INFO  - Waiting for clients...
+23:12:18.705 INFO  - Connection established
+23:12:28.462 INFO  - Connection established
+23:12:44.508 INFO  - Dedequias anganyela has connected to the server.
+23:12:47.076 INFO  - Cerlo Henrique has connected to the server.
+23:13:24.443 INFO  - Dedequias anganyela has disconnected from the server after sending 5 messages.[Vowels : 2; Consonants : 6; Characters : 9; Message : lil pussy
+, Vowels : 6; Consonants : 9; Characters : 18; Message : you heard me right
+, Vowels : 4; Consonants : 8; Characters : 14; Message : hahaha shut yp
+, Vowels : 1; Consonants : 1; Characters : 2; Message : up
+, Vowels : 1; Consonants : 1; Characters : 2; Message : la
+]
+23:14:56.550 INFO  - Cerlo Henrique has disconnected from the server after sending 3 messages.[Vowels : 2; Consonants : 3; Characters : 5; Message : Hello
+, Vowels : 2; Consonants : 4; Characters : 7; Message : fuck it
+, Vowels : 3; Consonants : 5; Characters : 9; Message : im ballin
+]
+23:33:52.591 INFO  - Server initiated.
+23:33:52.594 INFO  - Listening to port 1766
+23:33:52.595 INFO  - Waiting for clients...
+23:34:01.449 INFO  - Connection established
+23:34:07.269 INFO  - ljbh has connected to the server.
+23:34:23.866 INFO  - Connection established
+23:34:27.055 INFO  - jbbn; has connected to the server.
+23:34:43.323 INFO  - jbbn; has disconnected from the server after sending 3 messages.
+[Vowels : 0; Consonants : 6; Characters : 6; Message : cccjjl
+, Vowels : 0; Consonants : 1; Characters : 1; Message : y
+, Vowels : 0; Consonants : 3; Characters : 4; Message : dyb;
+]
+23:34:47.418 INFO  - ljbh has disconnected from the server after sending 2 messages.
+[Vowels : 2; Consonants : 3; Characters : 5; Message : cerlo
+, Vowels : 2; Consonants : 2; Characters : 4; Message : iyob
+]
+23:39:03.774 INFO  - Server initiated.
+23:39:03.778 FATAL - Couldnt initiate server
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_301]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:102) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:513) ~[?:1.8.0_301]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:180) ~[?:1.8.0_301]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_301]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_301]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_301]
+	at br.com.Server.Server.start(Server.java:24) [Server.jar:?]
+	at br.com.Server.MainServer.main(MainServer.java:7) [Server.jar:?]
+23:39:18.424 INFO  - Server initiated.
+23:39:18.428 INFO  - Listening to port 1766
+23:39:18.428 INFO  - Waiting for clients...
+23:40:57.887 INFO  - Server initiated.
+23:40:57.889 INFO  - Listening to port 1766
+23:40:57.890 INFO  - Waiting for clients...
+23:41:05.281 INFO  - Connection established
+23:41:08.713 INFO  - Cekgna has connected to the server.
+23:41:22.796 INFO  - Cekgna has disconnected from the server after sending 4 messages.
+[Vowels : 2; Consonants : 3; Characters : 5; Message : money, Vowels : 3; Consonants : 3; Characters : 6; Message : hahaha, Vowels : 1; Consonants : 2; Characters : 3; Message : lol, Vowels : 1; Consonants : 4; Characters : 5; Message : pussy]
+00:04:49.811 INFO  - Server initiated.
+00:04:49.814 INFO  - Listening to port 1766
+00:04:49.814 INFO  - Waiting for clients...
+00:04:58.074 INFO  - Connection established
+00:05:05.251 INFO  - Cerlouse has connected to the server.
+00:05:30.150 FATAL - Couldn't create constructor
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_301]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_301]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_301]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_301]
+	at br.com.Server.ClientRunner.runner(ClientRunner.java:23) [classes/:?]
+	at br.com.Server.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301]
+00:10:43.482 INFO  - Server initiated.
+00:10:43.485 INFO  - Listening to port 1766
+00:10:43.486 INFO  - Waiting for clients...
+00:10:50.130 INFO  - Connection established
+00:10:53.186 INFO  - snv has connected to the server.
+00:11:21.418 FATAL - Couldn't create constructor
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_301]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_301]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_301]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_301]
+	at br.com.Server.ClientRunner.runner(ClientRunner.java:23) [classes/:?]
+	at br.com.Server.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301]
+00:12:45.647 INFO  - Server initiated.
+00:12:45.650 INFO  - Listening to port 1766
+00:12:45.651 INFO  - Waiting for clients...
+00:12:50.512 INFO  - Connection established
+00:12:53.189 INFO  - sf'ms has connected to the server.
+00:13:20.027 INFO  - sf'ms has disconnected from the server after sending 6 messages.
+[Vowels : 0; Consonants : 1; Characters : 2; Message : s', Vowels : 0; Consonants : 3; Characters : 4; Message : snf', Vowels : 0; Consonants : 2; Characters : 3; Message : m,m, Vowels : 2; Consonants : 2; Characters : 5; Message : lad;a, Vowels : 0; Consonants : 1; Characters : 2; Message : n,, Vowels : 1; Consonants : 3; Characters : 4; Message : cerr]
+00:14:22.843 INFO  - Server initiated.
+00:14:22.846 INFO  - Listening to port 1766
+00:14:22.846 INFO  - Waiting for clients...
+00:14:40.483 INFO  - Connection established
+00:14:45.927 INFO  - Connection established
+00:14:48.885 INFO  - s;n has connected to the server.
+00:14:54.806 INFO  - k;n has connected to the server.
+00:15:05.879 INFO  - k;n has disconnected from the server after sending 3 messages.
+[Vowels : 1; Consonants : 3; Characters : 4; Message : nkda, Vowels : 1; Consonants : 1; Characters : 3; Message : j;a, Vowels : 1; Consonants : 4; Characters : 5; Message : lknda]
+00:15:09.270 INFO  - s;n has disconnected from the server after sending 2 messages.
+[Vowels : 1; Consonants : 4; Characters : 6; Message : nda;nd, Vowels : 1; Consonants : 4; Characters : 6; Message : k;mamd]
+00:29:23.183 INFO  - Server initiated.
+00:29:23.186 INFO  - Listening to port 1766
+00:29:23.187 INFO  - Waiting for clients...
+00:29:32.007 INFO  - Connection established
+00:29:35.869 INFO  - kmsf has connected to the server.
+00:30:37.605 INFO  - Connection established
+00:35:25.102 INFO  - Server initiated.
+00:35:25.104 INFO  - Listening to port 1766
+00:35:25.105 INFO  - Waiting for clients...
+00:35:34.495 INFO  - Connection established
+00:35:38.620 INFO  - kma has connected to the server.
+00:35:45.556 ERROR - Connection lost with user kma.
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_301]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_301]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_301]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_301]
+	at br.com.Server.ClientRunner.runner(ClientRunner.java:32) [classes/:?]
+	at br.com.Server.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301]
+00:42:04.532 INFO  - Server initiated.
+00:42:04.534 INFO  - Listening to port 1766
+00:42:04.534 INFO  - Waiting for clients...
+00:42:10.479 INFO  - Connection established
+00:42:14.098 INFO  - lalala has connected to the server.
+00:42:24.853 INFO  - lalala has disconnected from the server after sending 2 messages.
+[Vowels : 2; Consonants : 2; Characters : 4; Message : zaza, Vowels : 3; Consonants : 3; Characters : 6; Message : larifa]
+00:42:33.378 INFO  - Connection established
+00:42:37.134 INFO  - Connection established
+00:42:40.448 INFO  - lala has connected to the server.
+00:42:44.200 INFO  - zaza has connected to the server.
+00:42:54.648 INFO  - zaza has disconnected from the server after sending 2 messages.
+[Vowels : 2; Consonants : 4; Characters : 6; Message : mvamda, Vowels : 3; Consonants : 3; Characters : 6; Message : enoamv]
+00:42:57.526 INFO  - lala has disconnected from the server after sending 2 messages.
+[Vowels : 0; Consonants : 3; Characters : 5; Message : n k;z, Vowels : 2; Consonants : 2; Characters : 4; Message : akfa]
+07:39:45.371 INFO  - Server initiated.
+07:39:45.374 INFO  - Listening to port 1766
+07:39:45.374 INFO  - Waiting for clients...
+07:39:54.111 INFO  - Connection established
+07:40:00.409 INFO  - ineva has connected to the server.
+07:41:00.968 INFO  - ineva has disconnected from the server after sending 2 messages.
+[Vowels : 2; Consonants : 3; Characters : 5; Message : cerlo
+, Vowels : 6; Consonants : 7; Characters : 14; Message : cerlo henrique
+]
+07:44:00.178 INFO  - Connection established
+07:44:03.528 INFO  - kfkma has connected to the server.
+07:44:13.025 ERROR - Connection lost with user kfkma.
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_301]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_301]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_301]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_301]
+	at br.com.Server.ClientRunner.runner(ClientRunner.java:42) [classes/:?]
+	at br.com.Server.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301]
+07:47:14.655 INFO  - Server initiated.
+07:47:14.665 INFO  - Listening to port 1766
+07:47:14.665 INFO  - Waiting for clients...
+07:49:37.401 INFO  - Server initiated.
+07:49:37.404 INFO  - Listening to port 1766
+07:49:37.404 INFO  - Waiting for clients...
+07:50:05.028 INFO  - Server initiated.
+07:50:05.030 INFO  - Listening to port 1766
+07:50:05.031 INFO  - Waiting for clients...
+07:50:11.136 INFO  - Connection established
+07:50:14.586 INFO  - nooma has connected to the server.
+07:51:38.918 ERROR - Connection lost with user nooma.
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_301]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_301]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_301]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_301]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_301]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_301]
+	at br.com.Server.ClientRunner.runner(ClientRunner.java:42) [classes/:?]
+	at br.com.Server.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301]
