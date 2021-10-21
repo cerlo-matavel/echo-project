@@ -14,7 +14,7 @@ e tem de estar em uma lista separada para os usuarios
 public class ClientHandler implements Runnable{
 
     protected Socket socket;
-    private MessagesHandler messagesHandler = new MessagesHandler();
+    private MessagesHandler messagesHandler;
     private static final Logger LOGGER = LogManager.getLogger(ClientHandler.class);
 
     public ClientHandler(Socket socket) {
