@@ -5,12 +5,12 @@ import java.util.regex.Pattern;
 
 public class MessagesHandler {
 
-    private int vowels,consonants,characters,messages = 0;
+    private int vowels,consonants,characters,messages;
     private String content;
 
-    private ArrayList<String> info = new ArrayList<>();
+    private ArrayList<MessagesHandler> info = new ArrayList<>();
 
-    public ArrayList<String> getInfo() {
+    public ArrayList<MessagesHandler> getInfo() {
         return info;
     }
 
@@ -22,16 +22,38 @@ public class MessagesHandler {
         this.content = content;
     }
 
-    public int getMessagesNumber() {
+    public int messagesCounter(){
+        return messages++;
+    }
+
+
+    public int getVowels() {
+        return vowels;
+    }
+
+    public int getConsonants() {
+        return consonants;
+    }
+
+    public int getCharacters() {
+        return characters;
+    }
+
+    public int getMessages() {
         return messages;
     }
 
-    public int getMessagesCount(){
-        return messages++;
+    //Constructor
+    public MessagesHandler(int vowels, int consonants, int characters, String content) {
+        this.vowels = vowels;
+        this.consonants = consonants;
+        this.characters = characters;
+        this.content = content;
     }
 
     //Calculates the number os characters, vowels, consonants and stores it in a list
     public void vowelsConsonants(String content){
+
         consonants = 0;
         vowels = 0;
 
@@ -42,10 +64,22 @@ public class MessagesHandler {
                 vowels++;
 
         characters = content.length();
+        info.add(new MessagesHandler(vowels,consonants,characters,this.content));
+    }
 
-        info.add("Vowels : "+ vowels
-                + "; Consonants : "+ consonants
-                + "; Characters : "+ characters
-                + "; Message : "+ content+"\n");
+    public String printAllMessages(){
+        int i = 0;
+        String mess = "";
+        MessagesHandler object;
+
+        while(info.size() > i){
+            object = info.get(i);
+            mess = mess + "Vowels : " + object.getVowels()
+                    +", consonants : "+ object.getConsonants()
+                    +", characters : "+ object.getCharacters()
+                    +", message : "+ object.getContent() + "\n";
+            i++;
+        }
+        return mess;
     }
 }
